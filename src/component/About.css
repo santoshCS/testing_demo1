@@ -98,11 +98,33 @@
     background: linear-gradient(117.29deg, #16A6EC 4.18%, #5B63FF 84.23%);
     border-bottom: 1px solid #00A5EC;
   }
+  .smalBox_area .box_container{
+    margin: 0 5.75rem;
+    display: flex;
+    align-items: center;
+  }
   .explore_bottom{
-    flex-basis: calc(25% - 40px);
+    /* flex-basis: calc(25% - 40px); */
     margin: 20px;
-    padding: 20px;
+    padding: 10px 0;
     border: 1px solid #e6eaec;
+    flex: 1;
+    /* width: 268px; */
+    border-radius: 6px;
+    background-color: #fff;
+  }
+  .explore_bottom .icon{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 6px;
+  }
+  .explore_bottom .icon img{
+    width: 25%;
+    height: auto;
+  } 
+  .explore_bottom .icon .title{
+    transform: translateY(-25px);
   }
   
   /* Responsive styles */

@@ -3,6 +3,7 @@ import './About.css';
 import jsonData from '../data/data.json';
 
 const About = () => {
+
   return (
     <>
     <div className="container box_area">
@@ -11,7 +12,7 @@ const About = () => {
     </div>
 
     <div className="container">
-      {jsonData.map(item => (
+      {jsonData.first.map(item => (
         <div key={item.id} className="item">
           <div className="icon">
             <img src={item.icon} alt="Icon" />
@@ -24,7 +25,7 @@ const About = () => {
         {/* second area */}
 
     <div className="container box_area">
-      {jsonData.map(item => (
+      {jsonData.second.map(item => (
         <div key={item.id} className="explore_item">
           <div className="icon">
             <img src={item.icon} alt="Icon" />
@@ -38,15 +39,17 @@ const About = () => {
     {/* 4 boxes */}
 
     <div className="container smalBox_area">
-      {jsonData.map(item => (
-        <div key={item.id} className="explore_bottom">
+      <div className='box_container'>
+      {jsonData.third.map(item => (
+          <div key={item.id} className="explore_bottom">
           <div className="icon">
             <img src={item.icon} alt="Icon" />
-          </div>
           <div className="title">{item.title}</div>
+          </div>
           <div className="text">{item.text}</div>
         </div>
       ))}
+      </div>
     </div>
 
 
