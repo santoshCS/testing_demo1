@@ -124,6 +124,9 @@
   }
   .second_container_subtitle p{
     margin-top: 0;
+    color:#717B9E;
+    font-size: 16px;
+    font-family: 600;
   }
  
   
@@ -217,19 +220,23 @@
     gap:1rem;
   }
   .btn_area button{
-    border: .5px solid #0a5e84;
+    border: .5px solid #17A6E8;
     padding: 8px;
     border-radius: 50px;
     background-color: #fff;
+    color: #17A6E8;
   }
   .btn_area button:nth-child(2) {
     background-color: #17A6E8;
+    color: #fff;
   }
   .btn_area button:nth-child(2):hover {
     background-color: #fff;
+    color: #17A6E8;
   }  
   .btn_area button:nth-child(1):hover {
     background-color: #17A6E8;
+    color: #fff;
   }
   .first_container .icon img{
     width: 20%;
