@@ -180,6 +180,25 @@
   .explore_bottom .icon .title{
     transform: translateY(-25px);
   }
+  .btn_area{
+    display: flex;
+    justify-content: end;
+    gap:1rem;
+  }
+  .btn_area button{
+    border: .5px solid #0a5e84;
+    padding: 8px;
+    border-radius: 50px;
+  }
+  .btn_area button:nth-child(2) {
+    background-color: #17A6E8;
+  }
+  .btn_area button:nth-child(2):hover {
+    background-color: #fff;
+  }  
+  .btn_area button:nth-child(1):hover {
+    background-color: #17A6E8;
+  }
   
   /* Responsive styles */
   @media (max-width: 768px) {

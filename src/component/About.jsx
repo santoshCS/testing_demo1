@@ -50,8 +50,11 @@ The <span>Ultimate Job Solution</span> for Fresher
            <span><img src={item.money} alt="Icon" /> 4k</span>
            <span><img src={item.time} alt="Icon" /> 2hr ago</span>
             </p></div>
+          <div className='btn_area'>
+          <button type="button">View Details</button>
+          <button type="button">Apply Now</button>
+          </div>
           
-          <button>View Details</button> <button>Apply Now</button>
         </div>
       ))}
     </div>
