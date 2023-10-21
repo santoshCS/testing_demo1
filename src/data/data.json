@@ -78,31 +78,27 @@
   "third": [
     {
       "id": 1,
-      "icon": "../../",
-      "name": "10k",
-      "title": "Title 3",
-      "text": "Text for item 3"
+      "icon": "assets/image1.svg",
+      "name": "assets/Student10k.svg"
+
     } ,    
     {
       "id": 2,
-      "icon": "https://media.istockphoto.com/id/1345370477/photo/red-no-sign-on-a-white-background.jpg?s=2048x2048&w=is&k=20&c=OvsyFC5em5oRzY_wDMo7FijHf33D4mQGtunw3io9oMw=",
-      "name": "10k",
-      "title": "Title 3",
-      "text": "Text for item 3"
+      "icon": "assets/image2.svg",
+      "name": "assets/Student10k.svg"
+
     } ,    
     {
       "id": 3,
-      "icon": "https://media.istockphoto.com/id/1345370477/photo/red-no-sign-on-a-white-background.jpg?s=2048x2048&w=is&k=20&c=OvsyFC5em5oRzY_wDMo7FijHf33D4mQGtunw3io9oMw=",
-      "name": "10k",
-      "title": "Title 3",
-      "text": "Text for item 3"
+      "icon": "assets/image3.svg",
+      "name": "assets/Student10k.svg"
+
     } ,    
     {
       "id": 4,
-      "icon": "https://media.istockphoto.com/id/1345370477/photo/red-no-sign-on-a-white-background.jpg?s=2048x2048&w=is&k=20&c=OvsyFC5em5oRzY_wDMo7FijHf33D4mQGtunw3io9oMw=",
-      "name": "10k",
-      "title": "Title 3",
-      "text": "Text for item 3"
+      "icon": "assets/image4.svg",
+      "name": "assets/Student10k.svg"
+
     }
 
   ]

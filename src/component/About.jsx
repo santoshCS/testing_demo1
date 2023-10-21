@@ -54,9 +54,12 @@ The <span>Ultimate Job Solution</span> for Fresher
           <div key={item.id} className="explore_bottom">
           <div className="icon">
             <img src={item.icon} alt="Icon" />
-          <div className="title">{item.title}</div>
+            <img className='st_area' src={item.name} alt="Icon" />
           </div>
-          <div className="text">{item.text}</div>
+          <div className="title">
+            {/* <img src={item.name} alt="Icon" /> */}
+          </div>
+          
         </div>
       ))}
       </div>
