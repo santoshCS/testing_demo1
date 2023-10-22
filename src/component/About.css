@@ -10,7 +10,7 @@ background-color: #a5e3ff;
 .box_area{
   
     background:  linear-gradient(180deg, rgba(165,227,255,1) 0%, rgba(255,255,255,1) 78%);
-    border-bottom: 1px solid #00A5EC;
+    border-bottom: 1px solid #A5E3FF;
 }
 .career_section{
     flex-basis: calc(37%);
