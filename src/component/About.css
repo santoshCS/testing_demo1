@@ -51,6 +51,17 @@ background-color: #a5e3ff;
   /* gap: 2rem; */
   text-align: center;
 }
+.tex_box h1{
+  color: #00A5EC;
+  font-weight: 700;
+  font-size: 32px;
+
+}
+.tex_box p{
+  color: #000000;
+  font-weight: 400;
+  font-size: 16;
+}
 .text_head{
   font-family: Inter;
   font-weight: 700;
@@ -80,7 +91,7 @@ background-color: #a5e3ff;
   .item {
     flex-basis: calc(22% - 40px);
     margin: 20px;
-    padding: 24px;
+    padding: 30px 24px;
     border: 1px solid #00A5EC;
     border-radius: 40px 0;
     text-align: center;
@@ -115,8 +126,11 @@ background-color: #a5e3ff;
     color: #2A2D35;
 
   }
-
-
+.first_container .text{
+  color:#2A2D35 ;
+  font-size: 16px;
+  font-weight: 500;
+}
   .explore_item{
     flex-basis: calc(25% - 40px);
     margin: 20px;
@@ -159,6 +173,7 @@ background-color: #a5e3ff;
   .title {
     font-weight: bold;
     margin-bottom: 10px;
+    color: #333333;
   }
   .title img{
     width: 100%;
@@ -176,6 +191,7 @@ background-color: #a5e3ff;
   .smalBox_area{
     background: linear-gradient(117.29deg, #16A6EC 4.18%, #5B63FF 84.23%);
     border-bottom: 1px solid #00A5EC;
+    padding: 48px 0;
   }
   .smalBox_area .box_container{
     /* margin: 0 5.75rem; */
@@ -185,8 +201,8 @@ background-color: #a5e3ff;
   }
   .explore_bottom{
     /* flex-basis: calc(25% - 40px); */
-    margin: 19px;
-    padding: 16px 22px;
+    margin: 6px;
+    padding: 22px 32px;
     border: 1px solid #e6eaec;
     flex: 1;
     width: 208px;
@@ -209,7 +225,8 @@ background-color: #a5e3ff;
     transform: translateY(-6px);
   }
   .explore_bottom .info-div .title{
-    color:rgba(23, 166, 232, 1);
+    /* color:rgba(23, 166, 232, 1); */
+    color: #16A6EC;
     font-size: 30px;
     margin: 0;
     transform: translateY(0);
@@ -217,7 +234,11 @@ background-color: #a5e3ff;
   } 
   .explore_bottom .info-div h5{
     margin: 0;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
   }
+
   /* .explore_bottom .icon img{
     width: 22%;
     
@@ -271,11 +292,16 @@ background-color: #a5e3ff;
   .first_container .icon .title{
     margin: 0;
     text-align: left;
+    color: #2A2D35;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
   }
   .send_head{
     text-align: center;
     font-size: 32px;
     font-weight: 700;
+    color: #2A2D35;
   }
   .circle_div{
     height: 50px;
@@ -294,6 +320,10 @@ background-color: #a5e3ff;
   }
   .view_more{
     text-align: center;
+    color:#00A5EC;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
   }
   .circle_div img{
     width: 100%!important;
