@@ -36,9 +36,17 @@ The <span>Ultimate Job Solution</span> for Fresher
         </div>
       ))}
     </div>
+
         {/* second area */}
 
+        <div className="tex_box bg_color_expo">
+          <h1>Explore the Opportunities</h1>
+          <p>At Internshala, every idea has an exponential influence because when you work with us, you work for millions of users. Ready to create a <br /> difference? Apply now!</p>
+        </div>
+
     <div className="container box_area second_container">
+
+
       {jsonData.second.map(item => (
         <div key={item.id} className="explore_item">
           <div className="icon_career">
